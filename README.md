@@ -2,7 +2,7 @@
 
 Example [Next.js](https://nextjs.org) app for [Webflow Cloud](https://webflow.com/cloud), using the App Router, [OpenNext](https://opennext.js.org) for Cloudflare Workers, and Wrangler. Use it as a starting point or reference when deploying Next.js on Webflow Cloud.
 
-[![Deploy to Webflow](https://webflow.com/img/deploy-dark.svg)](https://webflow.com/dashboard/cloud/deploy?repo=https://github.com/Webflow-Examples/hello-world-nextjs)
+[![Deploy to Webflow](https://webflow.com/img/deploy-dark.svg)](https://webflow.com/dashboard/cloud/deploy?repo=https://github.com/Webflow-Examples/hello-world-nextjs-devlink)
 
 ## Project structure
 
