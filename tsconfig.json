@@ -20,7 +20,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@webflow": ["./webflow"]
+      "@webflow": ["./src/webflow"]
     },
     "types": ["@cloudflare/workers-types/2023-07-01"]
   },

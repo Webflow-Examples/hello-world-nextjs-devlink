@@ -1,8 +1,8 @@
 /* If you want tailwind 'base' styles to override 'webflow' styles, re-order the layers */
 @layer properties, theme, base, webflow, components, utilities;
 
-/* Once you've synced DevLink, uncomment to import Webflow global styles in the 'webflow' layer */
-/* @import "../webflow/global.css" layer(webflow); */
+/* Webflow global styles are imported in the 'webflow' layer */
+@import "../webflow/css/global.css" layer(webflow);
 @import "tailwindcss";
 
 :root {
