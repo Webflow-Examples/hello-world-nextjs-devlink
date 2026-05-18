@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { DevLinkProvider } from "@/webflow/DevLinkProvider";
+import { DevLinkFontTags } from "@/webflow/webflow_modules/DevLinkFontTags";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <DevLinkFontTags />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
