@@ -1,8 +1,7 @@
-/* If you want tailwind 'base' styles to override 'webflow' styles, re-order the layers */
-@layer properties, theme, base, webflow, components, utilities;
-
-/* Webflow global styles are imported in the 'webflow' layer */
-@import "../webflow/css/global.css" layer(webflow);
+/* Webflow global styles. Imported unlayered so DevLink's internal @layer
+   ordering (normalize, defaults) stays intact — wrapping this @import in
+   layer(webflow) breaks Google font preconnects in exported components. */
+@import "../webflow/css/global.css";
 @import "tailwindcss";
 
 :root {
@@ -13,8 +12,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
