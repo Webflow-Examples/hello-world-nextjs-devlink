@@ -3,7 +3,7 @@
     "framework": "nextjs"
   },
   "devlink-export": {
-    "rootDir": "./src/webflow",
+    "rootDir": "./webflow",
     "components": ".*",
     "componentGroups": ".*",
     "ts": true,
