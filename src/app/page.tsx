@@ -1,4 +1,4 @@
-// Once you've synced DevLink components, import them from "@/webflow/*"
+// Once you've exported DevLink components, import them from "@/webflow/*"
 // import { ComponentName } from "@/webflow/ComponentName";
 
 export default function Home() {
