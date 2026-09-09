@@ -38,7 +38,7 @@ export default function Home() {
           </p>
           <div style={{ marginTop: "0.75rem" }}>
             <a
-              href="https://developers.webflow.com/data-clients/docs/getting-started"
+              href="https://developers.webflow.com/webflow-cloud/getting-started"
               style={{
                 display: "inline-block",
                 padding: "12px 24px",
