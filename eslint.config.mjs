@@ -16,6 +16,8 @@ const eslintConfig = defineConfig([
     ".open-next/**",
     ".wrangler/**",
     "**/devlink/**",
+    // Generated DevLink output (webflow.json devlink-export.rootDir):
+    "src/webflow/**",
   ]),
 ]);
 
